@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>python-osinfo</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <Summary xml:lang="en">A module for getting the OS type, brand, release, and kernel with Python 2 &amp; 3</Summary>
+        <Description xml:lang="en">Py-osinfo should work without any extra programs or libraries, beyond what your OS provides. The goal is for this to work on every OS that Python supports. Works on Linux, OS X, Windows, BSD, Solaris, Cygwin, and Haiku.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-osinfo</Name>
+        <Summary xml:lang="en">A module for getting the OS type, brand, release, and kernel with Python 2 &amp; 3</Summary>
+        <Description xml:lang="en">Py-osinfo should work without any extra programs or libraries, beyond what your OS provides. The goal is for this to work on every OS that Python supports. Works on Linux, OS X, Windows, BSD, Solaris, Cygwin, and Haiku.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.4</Path>
+            <Path fileType="library">/usr/lib/python2.7</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-10-13</Date>
+            <Version>0.1.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
