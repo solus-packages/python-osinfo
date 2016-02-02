@@ -1,6 +1,6 @@
 name       : python-osinfo
 version    : 0.1.1
-release    : 1
+release    : 2
 source     :
     - https://pypi.python.org/packages/source/p/py-osinfo/py-osinfo-0.1.1.tar.gz : d926b1635e2e7a75426ea612a5f1611eff57e6bdce690fbe56bf43a838c95c6d
 license    : MIT
@@ -10,7 +10,7 @@ description: |
 builddeps  :
     - python-setuptools
     - python3-setuptools
-    - pkgconfig(python-3.4)
+    - pkgconfig(python-3.5)
 build      : |
     for py in "python" "python3" ; do
         ${py} setup.py build
