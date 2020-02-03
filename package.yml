@@ -1,11 +1,12 @@
 name       : python-osinfo
 version    : 0.1.1
-release    : 3
+release    : 4
 source     :
     - https://pypi.python.org/packages/source/p/py-osinfo/py-osinfo-0.1.1.tar.gz : d926b1635e2e7a75426ea612a5f1611eff57e6bdce690fbe56bf43a838c95c6d
 license    : MIT
 component  : programming.python
-summary    : A module for getting the OS type, brand, release, and kernel with Python 2 & 3
+summary    : A module for getting the OS type, brand, release, and kernel with Python
+    2 & 3
 description: |
     Py-osinfo should work without any extra programs or libraries, beyond what your OS provides. The goal is for this to work on every OS that Python supports. Works on Linux, OS X, Windows, BSD, Solaris, Cygwin, and Haiku.
 builddeps  :
